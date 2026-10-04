@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="ovh-dns : pointez un domaine OVH vers Vercel en trois commandes, sans jamais casser vos e-mails">
+  <defs>
+    <style>
+      .t{font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+      .m{font-family:"JetBrains Mono","SF Mono",Menlo,Consolas,monospace}
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0F1A"/>
+      <stop offset="1" stop-color="#141B2E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="380" rx="28" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="1199" height="379" rx="27.5" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+
+  <!-- schéma OVH → Vercel -->
+  <g transform="translate(820 92)">
+    <rect width="130" height="56" rx="14" fill="#000E9C"/>
+    <text x="65" y="36" text-anchor="middle" class="t" font-size="22" font-weight="800" fill="#fff">OVH</text>
+    <path d="M150 28 H 212" stroke="#7C8AA5" stroke-width="3" stroke-linecap="round"/>
+    <path d="M204 18 L 214 28 L 204 38" fill="none" stroke="#7C8AA5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="232" width="130" height="56" rx="14" fill="#FFFFFF"/>
+    <path d="M297 16 L 318 42 H 276 Z" fill="#000"/>
+  </g>
+  <g transform="translate(820 170)">
+    <rect width="342" height="40" rx="12" fill="#ffffff" fill-opacity=".06"/>
+    <circle cx="20" cy="20" r="6" fill="#22C55E"/>
+    <text x="36" y="26" class="m" font-size="14" fill="#C9D2E3">MX · SPF · DKIM · DMARC intacts</text>
+  </g>
+  <g transform="translate(820 222)">
+    <rect width="342" height="40" rx="12" fill="#ffffff" fill-opacity=".06"/>
+    <circle cx="20" cy="20" r="6" fill="#22C55E"/>
+    <text x="36" y="26" class="m" font-size="14" fill="#C9D2E3">sauvegarde avant chaque écriture</text>
+  </g>
+
+  <!-- texte -->
+  <g transform="translate(64 64)">
+    <rect width="236" height="32" rx="16" fill="#000E9C"/>
+    <text x="118" y="21" text-anchor="middle" class="m" font-size="12" font-weight="700" fill="#fff" letter-spacing="1.6">PLUGIN CLAUDE CODE · GRATUIT</text>
+  </g>
+  <text x="64" y="166" class="m" font-size="66" font-weight="800" fill="#FFFFFF" letter-spacing="-2">ovh-dns</text>
+  <text x="64" y="214" class="t" font-size="27" font-weight="500" fill="#C9D2E3">Pointez un domaine OVH vers Vercel en trois commandes,</text>
+  <text x="64" y="250" class="t" font-size="27" font-weight="500" fill="#C9D2E3">sans jamais casser vos e-mails.</text>
+
+  <!-- terminal -->
+  <g transform="translate(64 290)">
+    <rect width="1072" height="54" rx="14" fill="#000000" fill-opacity=".45" stroke="#ffffff" stroke-opacity=".1"/>
+    <circle cx="26" cy="27" r="6" fill="#FF5F57"/><circle cx="46" cy="27" r="6" fill="#FEBC2E"/><circle cx="66" cy="27" r="6" fill="#28C840"/>
+    <text x="96" y="34" class="m" font-size="17" fill="#E6EDF7"><tspan fill="#7CF0A8">/ovh-dns:dns</tspan> vercel mon-domaine.fr --cname xxxx.vercel-dns-017.com. --apply</text>
+  </g>
+</svg>

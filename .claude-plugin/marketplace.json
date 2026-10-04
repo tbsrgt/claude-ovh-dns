@@ -1,0 +1,13 @@
+{
+  "name": "tbsrgt",
+  "description": "Plugins Claude Code gratuits de Tobias Ringot (Oculot Studio).",
+  "owner": { "name": "Tobias Ringot", "url": "https://oculot.studio" },
+  "plugins": [
+    {
+      "name": "ovh-dns",
+      "source": "./",
+      "description": "Votre zone DNS OVH pilotée depuis Claude Code : sauvegarde, pointage vers Vercel, nettoyage, propagation vérifiée, santé du mail. Sans jamais casser les e-mails.",
+      "category": "devops"
+    }
+  ]
+}

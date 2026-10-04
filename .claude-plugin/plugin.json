@@ -1,0 +1,10 @@
+{
+  "name": "ovh-dns",
+  "version": "1.0.0",
+  "description": "Votre zone DNS OVH pilotée depuis Claude Code : sauvegarde, pointage vers Vercel, nettoyage des enregistrements de bienvenue, propagation vérifiée, santé du mail. Sans jamais casser les e-mails.",
+  "author": { "name": "Tobias Ringot", "url": "https://oculot.studio" },
+  "license": "MIT",
+  "homepage": "https://github.com/tbsrgt/claude-ovh-dns",
+  "repository": "https://github.com/tbsrgt/claude-ovh-dns",
+  "keywords": ["dns", "ovh", "ovhcloud", "vercel", "domaine", "domain", "spf", "dmarc", "dkim"]
+}
